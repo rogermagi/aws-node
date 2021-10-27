@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req,res) =>{
-    res.send("Success");
+    res.send("Fantastic - Application deployed to AWS");
 });
 
 const port = process.env.port || 3000;
